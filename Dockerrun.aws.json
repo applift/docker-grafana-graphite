@@ -1,6 +1,5 @@
 {
   "AWSEBDockerrunVersion": "1",
-  "Command": "-P 8125:8125/udp -P 8126:8126",
   "Ports": [
     {
       "ContainerPort": "8080"
