@@ -100,7 +100,8 @@ EXPOSE  8125/udp
 # StatsD Management port
 EXPOSE  8126
 
-
+# Graphite Carbon port
+EXPOSE 2003
 
 # -------- #
 #   Run!   #
