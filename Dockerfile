@@ -92,7 +92,7 @@ ADD     ./supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 # ---------------- #
 
 # Grafana
-EXPOSE  8080
+EXPOSE  80
 
 # StatsD UDP port
 EXPOSE  8125/udp
