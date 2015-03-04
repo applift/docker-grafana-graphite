@@ -12,7 +12,7 @@
   },
   "rows": [
     {
-      "title": "Cache Update Metrics",
+      "title": "CPU Usage",
       "height": "250px",
       "editable": true,
       "collapse": false,
@@ -73,12 +73,12 @@
           },
           "targets": [
             {
-              "target": "*.counters.ad_server.cache_udpate.*.count"
+              "target": "alias(carbon.agents.57ffc7b41b56-a.cpuUsage, 'CPU')"
             }
           ],
           "aliasColors": {},
           "aliasYAxis": {},
-          "title": "Cache Updates Count",
+          "title": "CPU Usage",
           "datasource": "graphite",
           "renderer": "flot",
           "annotate": {
