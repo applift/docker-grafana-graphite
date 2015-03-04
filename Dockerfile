@@ -16,8 +16,8 @@ RUN     pip install Django==1.5
 
 
 # Install Elasticsearch
-RUN     cd ~ && wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.3.2.deb
-RUN     cd ~ && dpkg -i elasticsearch-1.3.2.deb && rm elasticsearch-1.3.2.deb
+RUN     cd ~ && wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.4.4.deb
+RUN     cd ~ && dpkg -i elasticsearch-1.4.4.deb && rm elasticsearch-1.4.4.deb
 
 # Checkout the stable branches of Graphite, Carbon and Whisper and install from there
 RUN     mkdir /src
