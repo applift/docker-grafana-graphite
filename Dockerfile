@@ -103,6 +103,9 @@ EXPOSE  8126
 # Graphite Carbon port
 EXPOSE 2003
 
+# Elasticsearch port
+EXPOSE 9200
+
 # -------- #
 #   Run!   #
 # -------- #
